@@ -57,6 +57,7 @@ void TBitField::SetBit(const int n) // установить бит
 {
     if (n < 0) throw - 1;
     if (n > BitLen - 1) throw - 1;
+    if ((pMem[n / 32] >> (n % 32)) & 1) return;
     pMem[n / 32] += (1 << (n % 32));
 }
 
@@ -133,7 +134,7 @@ TBitField TBitField::operator|(const TBitField& bf) // операция "или"
 
 TBitField TBitField::operator&(const TBitField& bf) // операция "и"
 {
-    if (MemLen > bf.MemLen) {
+    if (BitLen > bf.BitLen) {
         TBitField res(BitLen);
         for (int i = 0; i < bf.MemLen; i++)
             res.pMem[i] = pMem[i] & bf.pMem[i];
