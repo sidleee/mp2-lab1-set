@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.1.2)
+cmake_minimum_required(VERSION 3.19.2)
 
 set(PROJECT_NAME set)
 project(${PROJECT_NAME})
