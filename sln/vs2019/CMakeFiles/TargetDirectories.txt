@@ -1,7 +1,0 @@
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/CMakeFiles/ALL_BUILD.dir
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/CMakeFiles/ZERO_CHECK.dir
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/src/CMakeFiles/set.dir
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/samples/CMakeFiles/sample_prime_numbers.dir
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/gtest/CMakeFiles/gtest.dir
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/test/CMakeFiles/test_set.dir
-C:/Users/s24380257/mp2-lab1-set/sln/vs2019/traffic/CMakeFiles/trafficlight_set.dir
